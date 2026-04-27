@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>ProcrastiNO (test)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>procrastiNO</h1>
+<p>stop procrastinating. start moving.</p>
+ <input id="taskInput" placeholder="What should you be doing?">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <h2 id="timer">0 seconds</h2>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+
+    <h2 id="message">Get to work...</h2>
+    <button onclick="toggleMode()">Switch Mode</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
